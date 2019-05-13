@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -30,4 +30,19 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.App{
+  display: flex;
+
+}
+
+.game-board{
+  display: flex;
+}
+
+.box{
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
 }
